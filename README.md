@@ -45,9 +45,9 @@ This project is a Java-based web application that allows users to register, log 
 1. Clone the repository.
 2. Import the project into your Java IDE as a Dynamic Web Project.
 3. Set up the PostgreSQL database and create the required tables.
-4. Configure database connection settings in `context.xml` and `web.xml`.
+4. Configure database connection settings in `DBConnection.java`.
 5. Deploy the project on Apache Tomcat.
-6. Run the application and access it via `http://localhost:8080/your-app-name`.
+6. Run the application and access it via `http://localhost:your-port/`.
 
 ## Usage
 1. Register a new user.
